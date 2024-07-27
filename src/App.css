@@ -1,0 +1,25 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
